@@ -33,12 +33,16 @@ function cyberchimps_boxes_lite_content() {
 	$img1 = cyberchimps_get_option( 'cyberchimps_blog_boxes_lite_image_one', $directory_uri . apply_filters( 'cyberchimps_boxes_lite_img1', '/elements/lib/images/boxes/slidericon.png' ) );
 	$img2 = cyberchimps_get_option( 'cyberchimps_blog_boxes_lite_image_two', $directory_uri . apply_filters( 'cyberchimps_boxes_lite_img2', '/elements/lib/images/boxes/blueprint.png' ) );
 	$img3 = cyberchimps_get_option( 'cyberchimps_blog_boxes_lite_image_three', $directory_uri . apply_filters( 'cyberchimps_boxes_lite_img3', '/elements/lib/images/boxes/docs.png' ) );
-
+	$img4 = cyberchimps_get_option( 'cyberchimps_blog_boxes_lite_image_four', $directory_uri . apply_filters( 'cyberchimps_boxes_lite_img4', '/elements/lib/images/boxes/docs.png' ) );
+	$img5 = cyberchimps_get_option( 'cyberchimps_blog_boxes_lite_image_five', $directory_uri . apply_filters( 'cyberchimps_boxes_lite_img5', '/elements/lib/images/boxes/docs.png' ) );
+	$img6 = cyberchimps_get_option( 'cyberchimps_blog_boxes_lite_image_six', $directory_uri . apply_filters( 'cyberchimps_boxes_lite_img6', '/elements/lib/images/boxes/docs.png' ) );
 	// Getting URL of custom link
 	$url1 = cyberchimps_get_option( 'cyberchimps_blog_boxes_link_url_one' );
 	$url2 = cyberchimps_get_option( 'cyberchimps_blog_boxes_link_url_two' );
 	$url3 = cyberchimps_get_option( 'cyberchimps_blog_boxes_link_url_three' );
-
+	$url4 = cyberchimps_get_option( 'cyberchimps_blog_boxes_link_url_four' );
+	$url5 = cyberchimps_get_option( 'cyberchimps_blog_boxes_link_url_five' );
+	$url6 = cyberchimps_get_option( 'cyberchimps_blog_boxes_link_url_six' );
 	$box_default_text = 'Alto ventos est coeptis utque fecit. Phoebe sine circumfuso arce. Tanto aliis. Matutinis cornua origo formaeque animal mundo. Chaos: fabricator. Natura mundo caesa addidit.
         Cuncta habendum meis omni ille formaeque emicuit septemque et. Lege fecit aethere porrexerat gentes horrifer formas.';
 	
@@ -46,13 +50,15 @@ function cyberchimps_boxes_lite_content() {
 	$text1 = cyberchimps_get_option( 'cyberchimps_blog_boxes_lite_image_one_text', $box_default_text );
 	$text2 = cyberchimps_get_option( 'cyberchimps_blog_boxes_lite_image_two_text', $box_default_text );
 	$text3 = cyberchimps_get_option( 'cyberchimps_blog_boxes_lite_image_three_text', $box_default_text );
-
+	$text4 = cyberchimps_get_option( 'cyberchimps_blog_boxes_lite_image_four_text', $box_default_text );
+	$text5 = cyberchimps_get_option( 'cyberchimps_blog_boxes_lite_image_five_text', $box_default_text );
+	$text6 = cyberchimps_get_option( 'cyberchimps_blog_boxes_lite_image_six_text', $box_default_text );
 	?>
 
 	<!-- Start of markup for boxes lite element -->
 	<div id="widget_boxes_container" class="row-fluid">
 		<div class="boxes">
-			<div class="box span4">
+			<div class="box span2">
 				<?php if( $url1 != '' && $img1 != '' ): ?>
 					<a href="<?php echo esc_url( $url1 ); ?>" class="box-link">
 						<img class="box-image" src="<?php echo esc_url( $img1 ); ?>"/>
@@ -68,7 +74,7 @@ function cyberchimps_boxes_lite_content() {
 			</div>
 			<!--end box1-->
 
-			<div class="box span4">
+			<div class="box span2">
 				<?php if( $url2 != '' && $img2 != '' ): ?>
 					<a href="<?php echo esc_url( $url2 ); ?>" class="box-link">
 						<img class="box-image" src="<?php echo esc_url( $img2 ); ?>"/>
@@ -84,7 +90,7 @@ function cyberchimps_boxes_lite_content() {
 			</div>
 			<!--end box2-->
 
-			<div class="box span4">
+			<div class="box span2">
 				<?php if( $url3 != '' && $img3 != '' ): ?>
 					<a href="<?php echo esc_url( $url3 ); ?>" class="box-link">
 						<img class="box-image" src="<?php echo esc_url( $img3 ); ?>"/>
@@ -99,6 +105,52 @@ function cyberchimps_boxes_lite_content() {
 				<p><?php echo wp_kses( $text3, array( 'br' => array(), 'em' => array(), 'strong' => array() ) ); ?></p>
 			</div>
 			<!--end box3-->
+
+			<div class="box span2">
+				<?php if( $url4 != '' && $img4 != '' ): ?>
+					<a href="<?php echo esc_url( $url3 ); ?>" class="box-link">
+						<img class="box-image" src="<?php echo esc_url( $img4 ); ?>"/>
+					</a>
+				<?php else: ?>
+					<?php if( $img4 != '' ): ?>
+						<a class="box-no-url">
+							<img class="box-image" src="<?php echo esc_url( $img4 ); ?>"/>
+						</a>
+					<?php endif; ?>
+				<?php endif; ?>
+				<p><?php echo wp_kses( $text4, array( 'br' => array(), 'em' => array(), 'strong' => array() ) ); ?></p>
+			</div>
+			<!--end box4-->
+			<div class="box span2">
+				<?php if( $url5 != '' && $img5 != '' ): ?>
+					<a href="<?php echo esc_url( $url4 ); ?>" class="box-link">
+						<img class="box-image" src="<?php echo esc_url( $img5 ); ?>"/>
+					</a>
+				<?php else: ?>
+					<?php if( $img5 != '' ): ?>
+						<a class="box-no-url">
+							<img class="box-image" src="<?php echo esc_url( $img5 ); ?>"/>
+						</a>
+					<?php endif; ?>
+				<?php endif; ?>
+				<p><?php echo wp_kses( $text5, array( 'br' => array(), 'em' => array(), 'strong' => array() ) ); ?></p>
+			</div>
+			<!--end box5-->
+			<div class="box span2">
+				<?php if( $url6 != '' && $img6 != '' ): ?>
+					<a href="<?php echo esc_url( $url4 ); ?>" class="box-link">
+						<img class="box-image" src="<?php echo esc_url( $img6 ); ?>"/>
+					</a>
+				<?php else: ?>
+					<?php if( $img6 != '' ): ?>
+						<a class="box-no-url">
+							<img class="box-image" src="<?php echo esc_url( $img6 ); ?>"/>
+						</a>
+					<?php endif; ?>
+				<?php endif; ?>
+				<p><?php echo wp_kses( $text6, array( 'br' => array(), 'em' => array(), 'strong' => array() ) ); ?></p>
+			</div>
+			<!--end box6-->
 		</div>
 		<!-- end boxes -->
 	</div><!-- end row-fluid -->

@@ -537,7 +537,7 @@ article.post p, article.page p {
 }
 
 /*==================================== IMAGES ==========================================================*/
-
+[if_slider id="35"]
 .alignnone {
 	display: block;
 	margin: 5px 20px 20px 0;
