@@ -133,7 +133,7 @@ CREATE TABLE `wp_options` (
   `autoload` varchar(20) NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB AUTO_INCREMENT=135 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=137 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -241,8 +241,6 @@ INSERT INTO `wp_options` VALUES (96,'cron','a:6:{i:1413512119;a:1:{s:26:\"upgrad
 INSERT INTO `wp_options` VALUES (98,'_site_transient_update_core','O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:57:\"https://downloads.wordpress.org/release/wordpress-4.0.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:57:\"https://downloads.wordpress.org/release/wordpress-4.0.zip\";s:10:\"no_content\";s:68:\"https://downloads.wordpress.org/release/wordpress-4.0-no-content.zip\";s:11:\"new_bundled\";s:69:\"https://downloads.wordpress.org/release/wordpress-4.0-new-bundled.zip\";s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:3:\"4.0\";s:7:\"version\";s:3:\"4.0\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"3.8\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1413504934;s:15:\"version_checked\";s:3:\"4.0\";s:12:\"translations\";a:0:{}}','yes');
 INSERT INTO `wp_options` VALUES (100,'_site_transient_update_plugins','O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1413504934;s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:2:\"15\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"3.0.2\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.3.0.2.zip\";}s:9:\"hello.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:4:\"3564\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";}}}','yes');
 INSERT INTO `wp_options` VALUES (101,'_transient_random_seed','c44b11707f36ec7a15337f8a7ab10f0d','yes');
-INSERT INTO `wp_options` VALUES (102,'_site_transient_timeout_theme_roots','1413506735','yes');
-INSERT INTO `wp_options` VALUES (103,'_site_transient_theme_roots','a:4:{s:13:\"business-lite\";s:7:\"/themes\";s:14:\"twentyfourteen\";s:7:\"/themes\";s:14:\"twentythirteen\";s:7:\"/themes\";s:12:\"twentytwelve\";s:7:\"/themes\";}','yes');
 INSERT INTO `wp_options` VALUES (105,'_site_transient_timeout_browser_812102977ed1c790e3b80677c32900d5','1414109586','yes');
 INSERT INTO `wp_options` VALUES (106,'_site_transient_browser_812102977ed1c790e3b80677c32900d5','a:9:{s:8:\"platform\";s:7:\"Windows\";s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:13:\"38.0.2125.101\";s:10:\"update_url\";s:28:\"http://www.google.com/chrome\";s:7:\"img_src\";s:49:\"http://s.wordpress.org/images/browsers/chrome.png\";s:11:\"img_src_ssl\";s:48:\"https://wordpress.org/images/browsers/chrome.png\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;}','yes');
 INSERT INTO `wp_options` VALUES (107,'can_compress_scripts','1','yes');
@@ -271,6 +269,8 @@ INSERT INTO `wp_options` VALUES (131,'theme_mods_twentyfourteen','a:1:{s:16:\"si
 INSERT INTO `wp_options` VALUES (132,'current_theme','Business lite','yes');
 INSERT INTO `wp_options` VALUES (133,'theme_mods_business-lite','a:1:{i:0;b:0;}','yes');
 INSERT INTO `wp_options` VALUES (134,'theme_switched','','yes');
+INSERT INTO `wp_options` VALUES (135,'_site_transient_timeout_theme_roots','1413509065','yes');
+INSERT INTO `wp_options` VALUES (136,'_site_transient_theme_roots','a:4:{s:13:\"business-lite\";s:7:\"/themes\";s:14:\"twentyfourteen\";s:7:\"/themes\";s:14:\"twentythirteen\";s:7:\"/themes\";s:12:\"twentytwelve\";s:7:\"/themes\";}','yes');
 /*!40000 ALTER TABLE `wp_options` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -523,4 +523,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-10-16 18:50:00
+-- Dump completed on 2014-10-16 19:03:33
