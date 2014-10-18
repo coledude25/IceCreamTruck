@@ -55,7 +55,10 @@ function cyberchimps_boxes_lite_content() {
 	?>
 
 	<!-- Start of markup for boxes lite element -->
-	
+	<div id="navigation_bar_under_slider">
+		<?php if ( dynamic_sidebar('middle_navigation_bar') ) : else : endif; ?>
+	</div>
+	<div style="border:1px solid red"><h1>boxes.php......line55...."new menu" above.......border inline</h1></div>
 	<div id="widget_boxes_container" class="row-fluid">
 		<div class="boxes">
 			<div class="box span2">

@@ -140,7 +140,7 @@
 							<nav id="navigation" role="navigation">
 								<div class="second-navigation navbar">
 									<div class="navbar-inner">
-
+									
 										<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'depth' => 1, 'menu_class' => 'nav', 'walker' => new cyberchimps_walker(), 'fallback_cb' => 'cyberchimps_fallback_menu' ) ); ?>
 
 									</div>
@@ -159,4 +159,5 @@
 		</div>
 		<!-- container -->
 	</div><!-- #second-menu -->
+	<h3>Testing Testing Testing</h3>
 <?php endif; ?>

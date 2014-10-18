@@ -368,6 +368,14 @@ header#cc_header .header-search {
 /******************************************** SECONDARY MENU ********************************************************/
 /********************************************************************************************************************/
 
+#navigation_bar_under_slider{
+			border: 5px solid red;
+			margin-top:-4%;
+			
+
+
+}
+
 #second_menu {
 	background: #232323;
 	background-image: url('images/secondary-menu-bg.jpg') 0 0 repeat;
