@@ -113,7 +113,12 @@ header#cc_header #social {
 	clear: right;
 	margin-bottom: 10px;
 }
-
+.container-full-width{
+			span:6;
+}
+#cc_header{
+	height:20%;
+}
 header #social .icons a {
 	float: right;
 	margin-left: 5px;
@@ -124,7 +129,16 @@ header #social .icons a {
 header#cc_header .span7 {
 	width: 100%;
 }
+#logo{
+	margin-top:-20px !important;
+}
 
+#cc_header{
+	height:75px !important;
+}
+#cc-header{
+		height:75px !important;
+}
 header#cc_header .span5 {
 	width: 100%;
 	margin-left: 0;
@@ -1170,6 +1184,7 @@ h2.box-widget-title {
 #boxes-container .box-no-url {
 	cursor: default;
 }
+
 
 /*==================================== PORTFOLIO ===================================================*/
 
