@@ -511,21 +511,6 @@ function cyberchimps_header_display() {
 	}
 }
 
-
-add_action( 'wp_enqueue_scripts', 'cyberchimps_text_domain');
-
-function cyberchimps_text_widgets_init() {
-	register_sidebar( array(
-		'name'=>'Navigation Bar Under Slider',
-		'id' => 'middle_navigation_bar',
-		'before_widget' => '<aside>',
-		'after_widget' => '</aside>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
-		));
-}
-add_action('widgets_init', 'cyberchimps_text_widgets_init');
-
 add_action( 'cyberchimps_header_display', 'cyberchimps_header_display' );
 
 // Places icons in footer if there are any

@@ -13,7 +13,6 @@
 
 ?>
 
-<div style="border:1px solid red"><h1>test test content.php top inline border</h1></div>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="entry-header">
@@ -139,8 +138,6 @@
 		<?php edit_post_link( __( 'Edit', 'business-lite' ), '<span class="edit-link">', '</span>' ); ?>
 
 	</footer>
-	
 	<!-- #entry-meta -->
 
 </article><!-- #post-<?php the_ID(); ?> -->
-<div style="border:1px solid red"><h1>end of content.php inline border</h1></div>

@@ -68,6 +68,52 @@
 					<!-- span 4 -->
 
 
+					<?php do_action( 'cyberchimps_before_navigation' ); ?>
+
+					<div class="span8">
+						<?php do_action( 'cyberchimps_header_display' ); ?>
+						<nav id="navigation" role="navigation">
+							<div class="main-navigation navbar<?php echo ( cyberchimps_get_option( 'cyberchimps_skin_color' ) == 'default' ) ? ' navbar-inverse' : ''; ?>">
+								<div class="navbar-inner">
+
+									<?php /* hide collapsing menu if not responsive */
+									if (cyberchimps_get_option( 'responsive_design' )): ?>
+									<div class="nav-collapse collapse">
+										<div class="container">
+											<?php endif; ?>
+											<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav', 'walker' => new cyberchimps_walker(), 'fallback_cb' => 'cyberchimps_fallback_menu' ) ); ?>
+
+											<?php if( cyberchimps_get_option( 'searchbar' ) == "1" ) {
+												get_search_form();
+											} ?>
+
+											<?php /* hide collapsing menu if not responsive */
+											if (cyberchimps_get_option( 'responsive_design' )): ?>
+										</div>
+										<!-- container -->
+									</div>
+								<!-- collapse -->
+								<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+									<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</a>
+								<?php endif; ?>
+
+								</div>
+								<!-- .navbar-inner .row-fluid -->
+							</div>
+							<!-- main-navigation navbar -->
+						</nav>
+						<!-- #navigation -->
+					</div>
+					<!-- span 8 -->
+				</div>
+				<!-- .row-fluid -->
+			</div>
+			<!-- .container fluid -->
+		</div>
 		<!-- .container -->
 	</header><!-- container full width -->
 
@@ -94,7 +140,7 @@
 							<nav id="navigation" role="navigation">
 								<div class="second-navigation navbar">
 									<div class="navbar-inner">
-									
+
 										<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'depth' => 1, 'menu_class' => 'nav', 'walker' => new cyberchimps_walker(), 'fallback_cb' => 'cyberchimps_fallback_menu' ) ); ?>
 
 									</div>
@@ -113,5 +159,4 @@
 		</div>
 		<!-- container -->
 	</div><!-- #second-menu -->
-	<h3>Testing Testing Testing</h3>
 <?php endif; ?>

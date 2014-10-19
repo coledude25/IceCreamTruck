@@ -124,7 +124,6 @@ if( !function_exists( 'cyberchimps_wrapper_start' ) ) {
 
 	function cyberchimps_wrapper_start() {
 		?>
-
 		<div id="cc_woocommerce" class="container-full-width">
 
 		<div class="container">
@@ -1163,7 +1162,6 @@ function cyberchimps_upgrade_bar() {
 			</div>
 		</div>
 	</div>
-
 <?php
 }
 
