@@ -1,0 +1,57 @@
+body{
+    color: #666666;
+    font:14px/20px "Lato","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+.code {
+	padding:10px;
+	background:#FFFCC9;
+	font-size:12px;
+}
+h1 { font-size: 30px; }
+h2 { font-size: 24px; }
+h3 { font-size: 22px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 14px; }
+a { color: #FA5B0F; text-decoration: underline;}
+.color{color:#FA5B0F;}
+a:hover{ color:#252525 }
+p{margin:0px 0px 15px;}
+.note{padding: 15px;background: none repeat scroll 0 0 #F9F2E3;border-bottom: 1px solid #F3E0B5;border-top: 5px solid #F3E0B5;}
+.important {color: red; }
+.inner{padding:10px;}
+h5 span{font-size: 13px;text-transform: none;}
+h1, h2, h3, h4, h5, h6,ul{margin: 0px 0px 20px;}
+h1, h2, h3, h4, h5, h6{font-weight: 700;color:#252525;}
+.content_element h1,.content_element h2,.content_element h3,.content_element h4,.content_element h5{text-transform: uppercase;}
+#header{}
+    #header h2{text-align: center;margin:30px 0px;}
+    #header_left{background: #fafafc;}
+    
+
+#main{margin:30px 0px 60px;padding-top:30px;border-top:1px solid #cccccc;}
+    .tabs{border-right:1px solid #cccccc;border-top: 1px solid #EDECEC;}
+    .tabs li a{display: block;padding:8px 5px 10px;border-bottom: 1px solid #EDECEC;text-decoration: none;color:#5f5e5e;}
+    .tabs li a.current{background: #fafafc;font-weight: bold;color:#252525}
+    .tabs h5{margin-bottom:0px;}
+    .tabs h5.selected a{color:#FA5B0F;}
+    .tabs ul{display: none;margin-bottom:0px;}
+    .tabs ul li a{padding-left:30px;}
+    .tabs ul.active li.selected a{color:#FA5B0F;}
+    
+    .option_title{padding-top:30px;
+        padding-bottom:7px;
+        border-bottom: 1px solid #EDECEC;font-size: 20px;}
+    #content ol{list-style: decimal outside none;margin-left:20px;margin-bottom:20px;}
+    #content ol li{padding:6px 0 5px;}
+    #content ul li{list-style:square outside none;padding:6px 0 5px;}
+    #content ul{padding-left:20px}
+    #content ul ul{padding-left:30px;}
+    #content ul ul,#content ul ul ul{margin-bottom:0px;}
+    #content a img,#content img{padding:5px;max-width: 690px;height:auto;
+    border:1px solid #DDDDDD;
+    background: none repeat scroll 0 0 #EEEEEE;
+    }
+    .content_element{margin-bottom:40px;}
+    .divider_top{width:100%;border-bottom:1px solid #cccccc;padding:12px 0px 12px 12px;margin-bottom:20px;}
+    .divider_top a{background: #fff;padding-left:10px;}
