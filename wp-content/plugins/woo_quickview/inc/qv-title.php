@@ -1,0 +1,1 @@
+<?php echo '<h1>'.get_the_title($_REQUEST['pid']).'</h1>'; ?>
