@@ -16,7 +16,6 @@
  */
 
 get_header(); ?>
-
 	<div id="image_page" class="container-full-width">
 
 		<div class="container">

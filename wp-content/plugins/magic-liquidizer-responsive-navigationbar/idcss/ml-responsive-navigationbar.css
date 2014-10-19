@@ -1,0 +1,157 @@
+/*
+* Plugin Name: Magic Liquidizer Responsive Navigationbar
+* Plugin URI: http://www.innovedesigns.com/wordpress/plugin/magic-liquidizer-responsive-nagivation-bar-must-have-rwd-plugin/
+* Author: Elvin Deza
+* Description: A Responsive Web Design (RWD) plugin that makes your existing Navigation Bar / Nav Menu become an instant responsive or mobile compatible.
+* Version: 1.0.0
+* Tags: responsive, fluid, nav bar, nav menu, navigation bar
+* Author URI: http://innovedesigns.com/author/esstat17
+*/
+
+/*	Responsive Navigationbar Import ---------- */
+
+.nav-on.margin-auto-top {
+	margin: 50px auto 0 !important;
+}
+
+#ml-selectnav {
+    background: url("../idimages/tinybg.png") repeat-x scroll left bottom #FFFFFF;
+    height: 45px;
+    left: 0;
+    margin-bottom: 0.5% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100% !important;
+    z-index: 99999;
+}
+
+.nav-on .hide, .nav-off .hide {
+		display: none;
+}
+
+.nav-on .show, .nav-on .show{
+		display: block;
+}
+
+#ml-selectnav .ml-selectnav {
+    margin: 0 auto !important;
+    width: 89% !important;
+}
+
+.ml-homeicon {
+    background: url("../idimages/home-icon2.png") no-repeat scroll left top transparent;
+}
+.ml-infoicon {
+    background: url("../idimages/info-v2.png") no-repeat scroll left top transparent;
+}
+
+.ml-callicon {
+    background: url("../idimages/call.png") no-repeat scroll 2px 1px transparent;
+}
+
+.ml-homeicon, .ml-infoicon, .ml-callicon {
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    margin-top: 8px;
+    padding-right: 3.567%;
+    width: 32px !important;
+}
+
+.ml-homeicon:hover, .ml-infoicon:hover, .ml-callicon:hover {
+	opacity: .8;
+}
+
+.ml-homeicon a, .ml-infoicon a, .ml-callicon a {
+    color: #C4C4C4 !important;
+    display: block;
+    float: left;
+    font-family: arial;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 10px;
+    margin-left: 1px;
+    padding-top: 23px;
+    position: relative;
+    text-align: left;
+    text-decoration: none !important;
+    text-indent: 0;
+    width: 35px;
+}
+
+.ml-homeicon a:hover, .ml-infoicon a:hover, .ml-callicon a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#ml-navbar1 {
+    background: url("../idimages/list-icon.png") no-repeat scroll right center transparent;
+    color: #fff;
+    float: right;
+    height: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    width: 50px;
+    z-index: 9;
+}
+
+#ml-navbar1 select {
+	background: none repeat scroll 0 0 transparent;
+    border: 1px solid #fff;
+    font-size: 16px;
+    padding: 10px 5px 10px 0;
+    width: 70px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    white-space: nowrap;
+    text-indent: 100%;
+    overflow: hidden;
+    z-index: -9;
+}
+
+#ml-navbar1 select option {
+	float: left;
+	padding: 2px 0;
+	line-height: 20px;
+    height: 20px;
+    max-width: 480px;
+}
+.wrapper {
+    min-width: 100% !important;
+}
+#ml-navbar1:hover {
+	opacity: .75;
+}
+
+#ml-navbar1 option.ml-selected {
+}
+#ml-navbar1 option:not(:checked) { font-weight:  normal; } 
+#ml-navbar1 option:hover,
+#ml-navbar1 option:focus,
+#ml-navbar1 option:active,
+#ml-navbar1 option:checked {
+	background: #5682e6;
+	background: -moz-linear-gradient(top,  #5682e6 20%, #1d64ed 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#5682e6), color-stop(100%,#1d64ed));
+	background: -webkit-linear-gradient(top,  #5682e6 20%,#1d64ed 100%);
+	background: -o-linear-gradient(top,  #5682e6 20%,#1d64ed 100%);
+	background: -ms-linear-gradient(top,  #5682e6 20%,#1d64ed 100%);
+	background: linear-gradient(to bottom,  #5682e6 20%,#1d64ed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5682e6', endColorstr='#1d64ed',GradientType=0 );    
+}

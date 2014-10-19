@@ -14,7 +14,7 @@
  */
 
 if( cyberchimps_get_option( 'footer_show_toggle' ) == '1' ) : ?>
-
+<div style="border:1px solid red"><h1>testing testing testing top of footer.php</h1></div>
 	<div id="footer_widgets_wrapper" class="container-full-width">
 		<div id="footer_wrapper" class="container">
 			<div id="wrapper" class="container-fluid">
@@ -79,7 +79,7 @@ if( cyberchimps_get_option( 'footer_show_toggle' ) == '1' ) : ?>
 		</div>
 		<!-- footer wrapper -->
 	</div><!-- footer widgets wrapper -->
-
+<div style="border:1px solid red"><h1>bottom of footer.php</h1></div>
 <?php endif ?>
 
 <?php do_action( 'cyberchimps_before_footer_container' ); ?>

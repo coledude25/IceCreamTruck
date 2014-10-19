@@ -131,6 +131,7 @@ function cyberchimps_slider_lite_content() {
 	}
 	$i = 0;
 	?>
+    <div style="border:1px solid red"><h1>slider-lite.php top</h1></div>
 	<div class="row-fluid">
 	<div id="slider_lite" class="carousel slide">
 		<div class="carousel-inner">
@@ -157,6 +158,7 @@ function cyberchimps_slider_lite_content() {
 
 		</div>
 	</div>
+   
 	<!-- row-fluid -->
 	
 	<script type="text/javascript">
@@ -166,7 +168,7 @@ function cyberchimps_slider_lite_content() {
 			jQuery('.carousel').carousel();
 		});
 	</script>
-			
+			<div style="border:1px solid red"<h1>slider-lite php bottom border inline</h1></div>
 <?php
 }
 

@@ -14,7 +14,6 @@
  */
 
 get_header(); ?>
-
 	<div id="archive_page" class="container-full-width">
 
 		<div class="container">
@@ -76,5 +75,6 @@ get_header(); ?>
 		<!-- container -->
 
 	</div><!-- container full width -->
+	
 
 <?php get_footer(); ?>

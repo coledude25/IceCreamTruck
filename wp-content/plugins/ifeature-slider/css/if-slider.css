@@ -1,0 +1,81 @@
+/* CSS Document for IFeature Slider */
+.ifeatureslider{
+  }
+.if-wrapper{
+  overflow:hidden;
+  max-width:100%;
+  position:relative;
+  }
+.if-buttons{
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  display:none;
+  }
+.if-wrapper:hover .if-buttons{
+  display:block;
+  }
+/*.ifeatureslider.auto .if-buttons{ display:none; }*/
+
+.if-buttons a{
+  display:block;
+  text-decoration: none !important;
+  padding:20px 30px;
+  color:#5EA8F3
+  }
+.if-buttons .if-floater{
+  width:1px;
+  margin-left:-1px;
+  height:50%;
+  }
+.if-prev-btn,.if-next-btn{
+  margin-top:-35px;
+  cursor:pointer;
+  display:block;
+  }
+.if-prev-btn{
+  background-color:rgba(255,255,255,0.9);
+  float:left;
+  }
+.if-next-btn{
+  background-color:rgba(255,255,255,0.9);
+  float:right;
+  }
+
+.if-arrow{
+  font-size:60px;
+  font-weight:bold;
+  height:30px;
+  width:30px;
+  }
+  
+.if-arrow.next{
+  text-align:right;
+  }
+.ifeatureslider .if-slides{
+  margin:10px 0;
+  padding:0;
+  overflow:hidden;
+  }
+
+.ifeatureslider .slide{
+  list-style:none;
+  float:left;
+  margin:0;
+  padding:0;
+  }
+.ifeatureslider .hide-slide{
+  display:none;
+  }
+
+.ifeatureslider a{}
+
+.ifeatureslider img{
+  max-width:100%;
+  width:100%;
+  height:auto;
+  margin:0;
+  padding:0;
+  }

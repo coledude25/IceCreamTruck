@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Space Boxes - 1.0\n"
+"POT-Creation-Date: 2013-11-12 15:46-0600\n"
+"PO-Revision-Date: 2013-11-12 15:46-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/columns.php:11
+msgid "Space Boxes Shortcode"
+msgstr ""
+
+#: ../inc/settings.php:59
+msgid "Space Box Options"
+msgstr ""
+
+#: ../inc/settings.php:70
+msgid "Text Color"
+msgstr ""
+
+#: ../inc/settings.php:71
+msgid "Controls the overall text color."
+msgstr ""
+
+#: ../inc/settings.php:77
+msgid "Accent Color"
+msgstr ""
+
+#: ../inc/settings.php:78
+msgid "Controls the background color of the plus icon."
+msgstr ""
+
+#: ../inc/settings.php:84
+msgid "Lightbox Background Color"
+msgstr ""
+
+#: ../inc/settings.php:85
+msgid "Controls the lightbox background color."
+msgstr ""
+
+#: ../inc/settings.php:91
+msgid "Lightbox Text Color"
+msgstr ""
+
+#: ../inc/settings.php:92
+msgid "Controls the lightbox text color."
+msgstr ""
+
+#: ../inc/spacebox-meta.php:19
+msgid "Instructions"
+msgstr ""
+
+#: ../inc/spacebox-meta.php:22
+msgid ""
+"Create a Wordpress gallery, and insert it into the post. If you insert 3 "
+"images, you'll have 3 boxes. Use the Title, Alt, and Caption fields for each "
+"image. This will show the title, caption, and image alt. If you do not input "
+"a title, or caption, then they will not show.<br/><br/>You can then show "
+"this Space Box set with <code>[spaceboxes id=\"\"]</code>. The ID is the ID "
+"of this post. Look up in the browser bar; it's the number that follows "
+"<code>?post=</code>."
+msgstr ""
+
+#: ../inc/spacebox-meta.php:26
+msgid "Archive Options"
+msgstr ""
+
+#: ../inc/spacebox-meta.php:29
+msgid ""
+"You have the option to showcase all of your Space Box sets with the "
+"shortcode <code>[spaceboxes_archive category=\"\"]</code>. The category "
+"attribute is optional, and allows you to only show Space Box sets from an "
+"specific Space Box category.<br/><br/>Each Space Box set in the archive is "
+"represented by the Featured Image (on your right), and Space Box set title. "
+"You can then use the link below, to tell this Space Box where to link to "
+"from the Space Box Archives. In other words, what page is this specific "
+"Space Box set on? Put that link below."
+msgstr ""
+
+#: ../inc/spacebox-meta.php:33
+msgid "Space Box Link"
+msgstr ""
+
+#: ../inc/spacebox-meta.php:40
+msgid " "
+msgstr ""
+
+#: ../inc/spacebox-meta.php:42
+msgid ""
+"<span class=\"ba-help-icon\">?</span>This only applies if you are using the "
+"Spacebox Archive Shortcode, and you'd like to provide a link to the page "
+"that the [spacebox] shortcode is on."
+msgstr ""
+
+#: ../inc/spacebox-meta.php:48 ../inc/type.php:30 ../inc/type.php:43
+msgid "Space Boxes"
+msgstr ""
+
+#: ../inc/type.php:31
+msgid "Parent Space Box:"
+msgstr ""
+
+#: ../inc/type.php:32
+msgid "All Space Boxes"
+msgstr ""
+
+#: ../inc/type.php:33
+msgid "View Space Box"
+msgstr ""
+
+#: ../inc/type.php:34
+msgid "Add New Space Box"
+msgstr ""
+
+#: ../inc/type.php:35
+msgid "New Space Box"
+msgstr ""
+
+#: ../inc/type.php:36
+msgid "Edit Space Box"
+msgstr ""
+
+#: ../inc/type.php:37
+msgid "Update Space Box"
+msgstr ""
+
+#: ../inc/type.php:38
+msgid "Search Space Boxes"
+msgstr ""
+
+#: ../inc/type.php:39
+msgid "No Space Boxes found"
+msgstr ""
+
+#: ../inc/type.php:40
+msgid "No Space Boxes found in Trash"
+msgstr ""
+
+#: ../inc/type.php:44
+msgid "Create responsive boxes"
+msgstr ""
+
+#: ../inc/type.php:64
+msgid "Categories"
+msgstr ""
+
+#: ../inc/type.php:65
+msgid "All Categories"
+msgstr ""
+
+#: ../inc/type.php:66
+msgid "Parent Category"
+msgstr ""
+
+#: ../inc/type.php:67
+msgid "Parent Category:"
+msgstr ""
+
+#: ../inc/type.php:68
+msgid "New Category Name"
+msgstr ""
+
+#: ../inc/type.php:69
+msgid "Add New Space Box Category"
+msgstr ""
+
+#: ../inc/type.php:70
+msgid "Edit Category"
+msgstr ""
+
+#: ../inc/type.php:71
+msgid "Update Category"
+msgstr ""
+
+#: ../inc/type.php:72
+msgid "Separate Categories with commas"
+msgstr ""
+
+#: ../inc/type.php:73
+msgid "Search Categories"
+msgstr ""
+
+#: ../inc/type.php:74
+msgid "Add or remove categories"
+msgstr ""
+
+#: ../inc/type.php:75
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: ../libs/custom-meta-boxes/classes.fields.php:987
+msgid "Type to search"
+msgstr ""
