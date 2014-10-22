@@ -4,7 +4,7 @@
  */
 ?>
 
-<div class="content-block blog-post clearfix">
+<div  class="content-block blog-post clearfix">
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		
 				
