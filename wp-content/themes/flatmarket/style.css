@@ -735,6 +735,8 @@ li:hover > .sub-menu,
 table.compare-list td img.ajax-loading {
     display: none!important;
 }
+
+
 /* * 8. Post social share */
 .post-social {
     border: 1px solid #e8e5e5;
