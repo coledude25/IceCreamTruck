@@ -547,7 +547,7 @@ CREATE TABLE `wp_options` (
   `autoload` varchar(20) NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB AUTO_INCREMENT=561 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=562 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -824,7 +824,7 @@ INSERT INTO `wp_options` VALUES (279,'woocommerce_meta_box_errors','a:0:{}','yes
 INSERT INTO `wp_options` VALUES (281,'_site_transient_timeout_popular_importers_en_US','1413878786','yes');
 INSERT INTO `wp_options` VALUES (282,'_site_transient_popular_importers_en_US','a:2:{s:9:\"importers\";a:8:{s:7:\"blogger\";a:4:{s:4:\"name\";s:7:\"Blogger\";s:11:\"description\";s:86:\"Install the Blogger importer to import posts, comments, and users from a Blogger blog.\";s:11:\"plugin-slug\";s:16:\"blogger-importer\";s:11:\"importer-id\";s:7:\"blogger\";}s:9:\"wpcat2tag\";a:4:{s:4:\"name\";s:29:\"Categories and Tags Converter\";s:11:\"description\";s:109:\"Install the category/tag converter to convert existing categories to tags or tags to categories, selectively.\";s:11:\"plugin-slug\";s:18:\"wpcat2tag-importer\";s:11:\"importer-id\";s:9:\"wpcat2tag\";}s:11:\"livejournal\";a:4:{s:4:\"name\";s:11:\"LiveJournal\";s:11:\"description\";s:82:\"Install the LiveJournal importer to import posts from LiveJournal using their API.\";s:11:\"plugin-slug\";s:20:\"livejournal-importer\";s:11:\"importer-id\";s:11:\"livejournal\";}s:11:\"movabletype\";a:4:{s:4:\"name\";s:24:\"Movable Type and TypePad\";s:11:\"description\";s:99:\"Install the Movable Type importer to import posts and comments from a Movable Type or TypePad blog.\";s:11:\"plugin-slug\";s:20:\"movabletype-importer\";s:11:\"importer-id\";s:2:\"mt\";}s:4:\"opml\";a:4:{s:4:\"name\";s:8:\"Blogroll\";s:11:\"description\";s:61:\"Install the blogroll importer to import links in OPML format.\";s:11:\"plugin-slug\";s:13:\"opml-importer\";s:11:\"importer-id\";s:4:\"opml\";}s:3:\"rss\";a:4:{s:4:\"name\";s:3:\"RSS\";s:11:\"description\";s:58:\"Install the RSS importer to import posts from an RSS feed.\";s:11:\"plugin-slug\";s:12:\"rss-importer\";s:11:\"importer-id\";s:3:\"rss\";}s:6:\"tumblr\";a:4:{s:4:\"name\";s:6:\"Tumblr\";s:11:\"description\";s:84:\"Install the Tumblr importer to import posts &amp; media from Tumblr using their API.\";s:11:\"plugin-slug\";s:15:\"tumblr-importer\";s:11:\"importer-id\";s:6:\"tumblr\";}s:9:\"wordpress\";a:4:{s:4:\"name\";s:9:\"WordPress\";s:11:\"description\";s:130:\"Install the WordPress importer to import posts, pages, comments, custom fields, categories, and tags from a WordPress export file.\";s:11:\"plugin-slug\";s:18:\"wordpress-importer\";s:11:\"importer-id\";s:9:\"wordpress\";}}s:10:\"translated\";b:0;}','yes');
 INSERT INTO `wp_options` VALUES (283,'_transient_woocommerce_cache_excluded_uris','a:6:{i:0;s:3:\"p=8\";i:1;s:3:\"p=9\";i:2;s:4:\"p=10\";i:3;s:5:\"/cart\";i:4;s:9:\"/checkout\";i:5;s:11:\"/my-account\";}','yes');
-INSERT INTO `wp_options` VALUES (316,'_transient_product_query-transient-version','1414009077','yes');
+INSERT INTO `wp_options` VALUES (316,'_transient_product_query-transient-version','1414011738','yes');
 INSERT INTO `wp_options` VALUES (318,'_transient_timeout_wc_upgrade_notice_2.2.2','1413789695','no');
 INSERT INTO `wp_options` VALUES (319,'_transient_wc_upgrade_notice_2.2.2','<div class=\"wc_plugin_upgrade_notice\">2.2 is a major update. Test extensions and your theme prior to updating, ensure extensions are up to date and 2.2 compatible, and ensure that you keep backups. Developers should catch up with <a href=\"http://develop.woothemes.com/\">develop.woothemes.com</a> to see what has been happening in core.</div> ','no');
 INSERT INTO `wp_options` VALUES (324,'wpb_js_composer_license_activation_notified','yes','yes');
@@ -955,7 +955,7 @@ INSERT INTO `wp_options` VALUES (522,'_transient_ipanel_googleFonts','s:23522:\"
 INSERT INTO `wp_options` VALUES (525,'_site_transient_timeout_theme_roots','1414009860','yes');
 INSERT INTO `wp_options` VALUES (526,'_site_transient_theme_roots','a:4:{s:10:\"flatmarket\";s:7:\"/themes\";s:14:\"twentyfourteen\";s:7:\"/themes\";s:14:\"twentythirteen\";s:7:\"/themes\";s:12:\"twentytwelve\";s:7:\"/themes\";}','yes');
 INSERT INTO `wp_options` VALUES (527,'_site_transient_update_plugins','O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1414008062;s:8:\"response\";a:1:{s:27:\"woocommerce/woocommerce.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"25331\";s:4:\"slug\";s:11:\"woocommerce\";s:6:\"plugin\";s:27:\"woocommerce/woocommerce.php\";s:11:\"new_version\";s:5:\"2.2.7\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/woocommerce/\";s:7:\"package\";s:60:\"https://downloads.wordpress.org/plugin/woocommerce.2.2.7.zip\";}}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:11:{s:36:\"contact-form-7/wp-contact-form-7.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:3:\"790\";s:4:\"slug\";s:14:\"contact-form-7\";s:6:\"plugin\";s:36:\"contact-form-7/wp-contact-form-7.php\";s:11:\"new_version\";s:5:\"4.0.1\";s:3:\"url\";s:45:\"https://wordpress.org/plugins/contact-form-7/\";s:7:\"package\";s:63:\"https://downloads.wordpress.org/plugin/contact-form-7.4.0.1.zip\";}s:23:\"loco-translate/loco.php\";O:8:\"stdClass\":7:{s:2:\"id\";s:5:\"42611\";s:4:\"slug\";s:14:\"loco-translate\";s:6:\"plugin\";s:23:\"loco-translate/loco.php\";s:11:\"new_version\";s:5:\"1.4.7\";s:14:\"upgrade_notice\";s:27:\"Bug fixes and improvements.\";s:3:\"url\";s:45:\"https://wordpress.org/plugins/loco-translate/\";s:7:\"package\";s:63:\"https://downloads.wordpress.org/plugin/loco-translate.1.4.7.zip\";}s:27:\"prettyphoto/prettyphoto.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"37796\";s:4:\"slug\";s:11:\"prettyphoto\";s:6:\"plugin\";s:27:\"prettyphoto/prettyphoto.php\";s:11:\"new_version\";s:3:\"1.1\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/prettyphoto/\";s:7:\"package\";s:54:\"https://downloads.wordpress.org/plugin/prettyphoto.zip\";}s:47:\"regenerate-thumbnails/regenerate-thumbnails.php\";O:8:\"stdClass\":7:{s:2:\"id\";s:4:\"4437\";s:4:\"slug\";s:21:\"regenerate-thumbnails\";s:6:\"plugin\";s:47:\"regenerate-thumbnails/regenerate-thumbnails.php\";s:11:\"new_version\";s:5:\"2.2.4\";s:14:\"upgrade_notice\";s:124:\"Better AJAX response error handling in the JavaScript. This should fix a long-standing bug in this plugin. Props Hew Sutton.\";s:3:\"url\";s:52:\"https://wordpress.org/plugins/regenerate-thumbnails/\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/plugin/regenerate-thumbnails.zip\";}s:37:\"simple-wp-retina/simple-wp-retina.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"33023\";s:4:\"slug\";s:16:\"simple-wp-retina\";s:6:\"plugin\";s:37:\"simple-wp-retina/simple-wp-retina.php\";s:11:\"new_version\";s:5:\"1.1.1\";s:3:\"url\";s:47:\"https://wordpress.org/plugins/simple-wp-retina/\";s:7:\"package\";s:65:\"https://downloads.wordpress.org/plugin/simple-wp-retina.1.1.1.zip\";}s:40:\"twitter-widget-pro/wp-twitter-widget.php\";O:8:\"stdClass\":7:{s:2:\"id\";s:4:\"3041\";s:4:\"slug\";s:18:\"twitter-widget-pro\";s:6:\"plugin\";s:40:\"twitter-widget-pro/wp-twitter-widget.php\";s:11:\"new_version\";s:5:\"2.6.0\";s:14:\"upgrade_notice\";s:83:\"Fix lists and add ability to remove accounts, as well as plenty of minor bug fixes.\";s:3:\"url\";s:49:\"https://wordpress.org/plugins/twitter-widget-pro/\";s:7:\"package\";s:67:\"https://downloads.wordpress.org/plugin/twitter-widget-pro.2.6.0.zip\";}s:36:\"cloud-zoom-for-woocommerce/index.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"31129\";s:4:\"slug\";s:26:\"cloud-zoom-for-woocommerce\";s:6:\"plugin\";s:36:\"cloud-zoom-for-woocommerce/index.php\";s:11:\"new_version\";s:3:\"0.1\";s:3:\"url\";s:57:\"https://wordpress.org/plugins/cloud-zoom-for-woocommerce/\";s:7:\"package\";s:73:\"https://downloads.wordpress.org/plugin/cloud-zoom-for-woocommerce.0.1.zip\";}s:41:\"wordpress-importer/wordpress-importer.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"14975\";s:4:\"slug\";s:18:\"wordpress-importer\";s:6:\"plugin\";s:41:\"wordpress-importer/wordpress-importer.php\";s:11:\"new_version\";s:5:\"0.6.1\";s:3:\"url\";s:49:\"https://wordpress.org/plugins/wordpress-importer/\";s:7:\"package\";s:67:\"https://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip\";}s:37:\"yith-woocommerce-ajax-search/init.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"42851\";s:4:\"slug\";s:28:\"yith-woocommerce-ajax-search\";s:6:\"plugin\";s:37:\"yith-woocommerce-ajax-search/init.php\";s:11:\"new_version\";s:5:\"1.1.2\";s:3:\"url\";s:59:\"https://wordpress.org/plugins/yith-woocommerce-ajax-search/\";s:7:\"package\";s:77:\"https://downloads.wordpress.org/plugin/yith-woocommerce-ajax-search.1.1.2.zip\";}s:33:\"yith-woocommerce-compare/init.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"41769\";s:4:\"slug\";s:24:\"yith-woocommerce-compare\";s:6:\"plugin\";s:33:\"yith-woocommerce-compare/init.php\";s:11:\"new_version\";s:5:\"1.2.1\";s:3:\"url\";s:55:\"https://wordpress.org/plugins/yith-woocommerce-compare/\";s:7:\"package\";s:73:\"https://downloads.wordpress.org/plugin/yith-woocommerce-compare.1.2.1.zip\";}s:34:\"yith-woocommerce-wishlist/init.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:5:\"41084\";s:4:\"slug\";s:25:\"yith-woocommerce-wishlist\";s:6:\"plugin\";s:34:\"yith-woocommerce-wishlist/init.php\";s:11:\"new_version\";s:5:\"1.1.6\";s:3:\"url\";s:56:\"https://wordpress.org/plugins/yith-woocommerce-wishlist/\";s:7:\"package\";s:74:\"https://downloads.wordpress.org/plugin/yith-woocommerce-wishlist.1.1.6.zip\";}}}','yes');
-INSERT INTO `wp_options` VALUES (560,'product_cat_children','a:0:{}','yes');
+INSERT INTO `wp_options` VALUES (561,'product_cat_children','a:0:{}','yes');
 /*!40000 ALTER TABLE `wp_options` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -974,7 +974,7 @@ CREATE TABLE `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`)
-) ENGINE=InnoDB AUTO_INCREMENT=6691 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6838 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -6726,6 +6726,153 @@ INSERT INTO `wp_postmeta` VALUES (6687,103,'_wp_trash_meta_comments_status','a:2
 INSERT INTO `wp_postmeta` VALUES (6688,102,'_wp_trash_meta_status','publish');
 INSERT INTO `wp_postmeta` VALUES (6689,102,'_wp_trash_meta_time','1414009075');
 INSERT INTO `wp_postmeta` VALUES (6690,102,'_wp_trash_meta_comments_status','a:1:{i:29;s:1:\"1\";}');
+INSERT INTO `wp_postmeta` VALUES (6691,1037,'_edit_last','1');
+INSERT INTO `wp_postmeta` VALUES (6692,1037,'_edit_lock','1414010717:1');
+INSERT INTO `wp_postmeta` VALUES (6693,1038,'_wp_attached_file','2014/10/aeromate-manual1.jpg');
+INSERT INTO `wp_postmeta` VALUES (6694,1038,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:500;s:6:\"height\";i:375;s:4:\"file\";s:28:\"2014/10/aeromate-manual1.jpg\";s:5:\"sizes\";a:10:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:28:\"aeromate-manual1-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:28:\"aeromate-manual1-300x225.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:225;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:21:\"yith-woocompare-image\";a:4:{s:4:\"file\";s:28:\"aeromate-manual1-220x154.jpg\";s:5:\"width\";i:220;s:6:\"height\";i:154;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:14:\"shop_thumbnail\";a:4:{s:4:\"file\";s:26:\"aeromate-manual1-90x90.jpg\";s:5:\"width\";i:90;s:6:\"height\";i:90;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"shop_catalog\";a:4:{s:4:\"file\";s:28:\"aeromate-manual1-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:11:\"shop_single\";a:4:{s:4:\"file\";s:28:\"aeromate-manual1-300x300.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:300;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"thumbnail@2x\";a:4:{s:4:\"file\";s:28:\"aeromate-manual1-300x300.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:300;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:24:\"yith-woocompare-image@2x\";a:4:{s:4:\"file\";s:28:\"aeromate-manual1-440x308.jpg\";s:5:\"width\";i:440;s:6:\"height\";i:308;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:17:\"shop_thumbnail@2x\";a:4:{s:4:\"file\";s:28:\"aeromate-manual1-180x180.jpg\";s:5:\"width\";i:180;s:6:\"height\";i:180;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:15:\"shop_catalog@2x\";a:4:{s:4:\"file\";s:28:\"aeromate-manual1-300x300.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:300;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:11:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";s:11:\"orientation\";i:0;}}');
+INSERT INTO `wp_postmeta` VALUES (6695,1037,'_thumbnail_id','1038');
+INSERT INTO `wp_postmeta` VALUES (6696,1037,'_visibility','visible');
+INSERT INTO `wp_postmeta` VALUES (6697,1037,'_stock_status','instock');
+INSERT INTO `wp_postmeta` VALUES (6698,1037,'total_sales','0');
+INSERT INTO `wp_postmeta` VALUES (6699,1037,'_downloadable','no');
+INSERT INTO `wp_postmeta` VALUES (6700,1037,'_virtual','no');
+INSERT INTO `wp_postmeta` VALUES (6701,1037,'_regular_price','40.00');
+INSERT INTO `wp_postmeta` VALUES (6702,1037,'_sale_price','');
+INSERT INTO `wp_postmeta` VALUES (6703,1037,'_purchase_note','');
+INSERT INTO `wp_postmeta` VALUES (6704,1037,'_featured','no');
+INSERT INTO `wp_postmeta` VALUES (6705,1037,'_weight','');
+INSERT INTO `wp_postmeta` VALUES (6706,1037,'_length','');
+INSERT INTO `wp_postmeta` VALUES (6707,1037,'_width','');
+INSERT INTO `wp_postmeta` VALUES (6708,1037,'_height','');
+INSERT INTO `wp_postmeta` VALUES (6709,1037,'_sku','');
+INSERT INTO `wp_postmeta` VALUES (6710,1037,'_product_attributes','a:0:{}');
+INSERT INTO `wp_postmeta` VALUES (6711,1037,'_sale_price_dates_from','');
+INSERT INTO `wp_postmeta` VALUES (6712,1037,'_sale_price_dates_to','');
+INSERT INTO `wp_postmeta` VALUES (6713,1037,'_price','40.00');
+INSERT INTO `wp_postmeta` VALUES (6714,1037,'_sold_individually','');
+INSERT INTO `wp_postmeta` VALUES (6715,1037,'_manage_stock','no');
+INSERT INTO `wp_postmeta` VALUES (6716,1037,'_backorders','no');
+INSERT INTO `wp_postmeta` VALUES (6717,1037,'_stock','');
+INSERT INTO `wp_postmeta` VALUES (6718,1037,'_product_image_gallery','');
+INSERT INTO `wp_postmeta` VALUES (6719,1037,'slide_template','default');
+INSERT INTO `wp_postmeta` VALUES (6720,1039,'_edit_last','1');
+INSERT INTO `wp_postmeta` VALUES (6721,1039,'_edit_lock','1414010924:1');
+INSERT INTO `wp_postmeta` VALUES (6722,1040,'_wp_attached_file','2014/10/digital21.jpg');
+INSERT INTO `wp_postmeta` VALUES (6723,1040,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:275;s:6:\"height\";i:204;s:4:\"file\";s:21:\"2014/10/digital21.jpg\";s:5:\"sizes\";a:5:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:21:\"digital21-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:21:\"yith-woocompare-image\";a:4:{s:4:\"file\";s:21:\"digital21-220x154.jpg\";s:5:\"width\";i:220;s:6:\"height\";i:154;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:14:\"shop_thumbnail\";a:4:{s:4:\"file\";s:19:\"digital21-90x90.jpg\";s:5:\"width\";i:90;s:6:\"height\";i:90;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"shop_catalog\";a:4:{s:4:\"file\";s:21:\"digital21-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:17:\"shop_thumbnail@2x\";a:4:{s:4:\"file\";s:21:\"digital21-180x180.jpg\";s:5:\"width\";i:180;s:6:\"height\";i:180;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:11:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";s:11:\"orientation\";i:0;}}');
+INSERT INTO `wp_postmeta` VALUES (6724,1039,'_thumbnail_id','1040');
+INSERT INTO `wp_postmeta` VALUES (6725,1039,'_visibility','visible');
+INSERT INTO `wp_postmeta` VALUES (6726,1039,'_stock_status','instock');
+INSERT INTO `wp_postmeta` VALUES (6727,1039,'total_sales','0');
+INSERT INTO `wp_postmeta` VALUES (6728,1039,'_downloadable','no');
+INSERT INTO `wp_postmeta` VALUES (6729,1039,'_virtual','no');
+INSERT INTO `wp_postmeta` VALUES (6730,1039,'_regular_price','195.00');
+INSERT INTO `wp_postmeta` VALUES (6731,1039,'_sale_price','');
+INSERT INTO `wp_postmeta` VALUES (6732,1039,'_purchase_note','');
+INSERT INTO `wp_postmeta` VALUES (6733,1039,'_featured','no');
+INSERT INTO `wp_postmeta` VALUES (6734,1039,'_weight','');
+INSERT INTO `wp_postmeta` VALUES (6735,1039,'_length','');
+INSERT INTO `wp_postmeta` VALUES (6736,1039,'_width','');
+INSERT INTO `wp_postmeta` VALUES (6737,1039,'_height','');
+INSERT INTO `wp_postmeta` VALUES (6738,1039,'_sku','');
+INSERT INTO `wp_postmeta` VALUES (6739,1039,'_product_attributes','a:0:{}');
+INSERT INTO `wp_postmeta` VALUES (6740,1039,'_sale_price_dates_from','');
+INSERT INTO `wp_postmeta` VALUES (6741,1039,'_sale_price_dates_to','');
+INSERT INTO `wp_postmeta` VALUES (6742,1039,'_price','195.00');
+INSERT INTO `wp_postmeta` VALUES (6743,1039,'_sold_individually','');
+INSERT INTO `wp_postmeta` VALUES (6744,1039,'_manage_stock','no');
+INSERT INTO `wp_postmeta` VALUES (6745,1039,'_backorders','no');
+INSERT INTO `wp_postmeta` VALUES (6746,1039,'_stock','');
+INSERT INTO `wp_postmeta` VALUES (6747,1039,'_product_image_gallery','');
+INSERT INTO `wp_postmeta` VALUES (6748,1039,'slide_template','default');
+INSERT INTO `wp_postmeta` VALUES (6749,1041,'_edit_last','1');
+INSERT INTO `wp_postmeta` VALUES (6750,1041,'_edit_lock','1414011107:1');
+INSERT INTO `wp_postmeta` VALUES (6751,1042,'_wp_attached_file','2014/10/CD1.jpg');
+INSERT INTO `wp_postmeta` VALUES (6752,1042,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:500;s:6:\"height\";i:375;s:4:\"file\";s:15:\"2014/10/CD1.jpg\";s:5:\"sizes\";a:10:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:15:\"CD1-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:15:\"CD1-300x225.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:225;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:21:\"yith-woocompare-image\";a:4:{s:4:\"file\";s:15:\"CD1-220x154.jpg\";s:5:\"width\";i:220;s:6:\"height\";i:154;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:14:\"shop_thumbnail\";a:4:{s:4:\"file\";s:13:\"CD1-90x90.jpg\";s:5:\"width\";i:90;s:6:\"height\";i:90;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"shop_catalog\";a:4:{s:4:\"file\";s:15:\"CD1-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:11:\"shop_single\";a:4:{s:4:\"file\";s:15:\"CD1-300x300.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:300;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"thumbnail@2x\";a:4:{s:4:\"file\";s:15:\"CD1-300x300.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:300;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:24:\"yith-woocompare-image@2x\";a:4:{s:4:\"file\";s:15:\"CD1-440x308.jpg\";s:5:\"width\";i:440;s:6:\"height\";i:308;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:17:\"shop_thumbnail@2x\";a:4:{s:4:\"file\";s:15:\"CD1-180x180.jpg\";s:5:\"width\";i:180;s:6:\"height\";i:180;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:15:\"shop_catalog@2x\";a:4:{s:4:\"file\";s:15:\"CD1-300x300.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:300;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:11:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";s:11:\"orientation\";i:0;}}');
+INSERT INTO `wp_postmeta` VALUES (6753,1041,'_thumbnail_id','1042');
+INSERT INTO `wp_postmeta` VALUES (6754,1041,'_visibility','visible');
+INSERT INTO `wp_postmeta` VALUES (6755,1041,'_stock_status','instock');
+INSERT INTO `wp_postmeta` VALUES (6756,1041,'total_sales','0');
+INSERT INTO `wp_postmeta` VALUES (6757,1041,'_downloadable','no');
+INSERT INTO `wp_postmeta` VALUES (6758,1041,'_virtual','no');
+INSERT INTO `wp_postmeta` VALUES (6759,1041,'_regular_price','12.00');
+INSERT INTO `wp_postmeta` VALUES (6760,1041,'_sale_price','');
+INSERT INTO `wp_postmeta` VALUES (6761,1041,'_purchase_note','');
+INSERT INTO `wp_postmeta` VALUES (6762,1041,'_featured','no');
+INSERT INTO `wp_postmeta` VALUES (6763,1041,'_weight','');
+INSERT INTO `wp_postmeta` VALUES (6764,1041,'_length','');
+INSERT INTO `wp_postmeta` VALUES (6765,1041,'_width','');
+INSERT INTO `wp_postmeta` VALUES (6766,1041,'_height','');
+INSERT INTO `wp_postmeta` VALUES (6767,1041,'_sku','');
+INSERT INTO `wp_postmeta` VALUES (6768,1041,'_product_attributes','a:0:{}');
+INSERT INTO `wp_postmeta` VALUES (6769,1041,'_sale_price_dates_from','');
+INSERT INTO `wp_postmeta` VALUES (6770,1041,'_sale_price_dates_to','');
+INSERT INTO `wp_postmeta` VALUES (6771,1041,'_price','12.00');
+INSERT INTO `wp_postmeta` VALUES (6772,1041,'_sold_individually','');
+INSERT INTO `wp_postmeta` VALUES (6773,1041,'_manage_stock','no');
+INSERT INTO `wp_postmeta` VALUES (6774,1041,'_backorders','no');
+INSERT INTO `wp_postmeta` VALUES (6775,1041,'_stock','');
+INSERT INTO `wp_postmeta` VALUES (6776,1041,'_product_image_gallery','');
+INSERT INTO `wp_postmeta` VALUES (6777,1041,'slide_template','default');
+INSERT INTO `wp_postmeta` VALUES (6778,1043,'_edit_last','1');
+INSERT INTO `wp_postmeta` VALUES (6779,1043,'_edit_lock','1414011332:1');
+INSERT INTO `wp_postmeta` VALUES (6780,1044,'_wp_attached_file','2014/10/ebay-awning1.jpg');
+INSERT INTO `wp_postmeta` VALUES (6781,1044,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:500;s:6:\"height\";i:299;s:4:\"file\";s:24:\"2014/10/ebay-awning1.jpg\";s:5:\"sizes\";a:10:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:24:\"ebay-awning1-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:24:\"ebay-awning1-300x179.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:179;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:21:\"yith-woocompare-image\";a:4:{s:4:\"file\";s:24:\"ebay-awning1-220x154.jpg\";s:5:\"width\";i:220;s:6:\"height\";i:154;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:14:\"shop_thumbnail\";a:4:{s:4:\"file\";s:22:\"ebay-awning1-90x90.jpg\";s:5:\"width\";i:90;s:6:\"height\";i:90;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"shop_catalog\";a:4:{s:4:\"file\";s:24:\"ebay-awning1-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:11:\"shop_single\";a:4:{s:4:\"file\";s:24:\"ebay-awning1-300x299.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:299;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"thumbnail@2x\";a:4:{s:4:\"file\";s:24:\"ebay-awning1-300x299.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:299;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:24:\"yith-woocompare-image@2x\";a:4:{s:4:\"file\";s:24:\"ebay-awning1-440x299.jpg\";s:5:\"width\";i:440;s:6:\"height\";i:299;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:17:\"shop_thumbnail@2x\";a:4:{s:4:\"file\";s:24:\"ebay-awning1-180x180.jpg\";s:5:\"width\";i:180;s:6:\"height\";i:180;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:15:\"shop_catalog@2x\";a:4:{s:4:\"file\";s:24:\"ebay-awning1-300x299.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:299;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:11:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";s:11:\"orientation\";i:0;}}');
+INSERT INTO `wp_postmeta` VALUES (6782,1043,'_thumbnail_id','1044');
+INSERT INTO `wp_postmeta` VALUES (6783,1043,'_visibility','visible');
+INSERT INTO `wp_postmeta` VALUES (6784,1043,'_stock_status','instock');
+INSERT INTO `wp_postmeta` VALUES (6785,1043,'total_sales','0');
+INSERT INTO `wp_postmeta` VALUES (6786,1043,'_downloadable','no');
+INSERT INTO `wp_postmeta` VALUES (6787,1043,'_virtual','no');
+INSERT INTO `wp_postmeta` VALUES (6788,1043,'_regular_price','150.00');
+INSERT INTO `wp_postmeta` VALUES (6789,1043,'_sale_price','');
+INSERT INTO `wp_postmeta` VALUES (6790,1043,'_purchase_note','');
+INSERT INTO `wp_postmeta` VALUES (6791,1043,'_featured','no');
+INSERT INTO `wp_postmeta` VALUES (6792,1043,'_weight','');
+INSERT INTO `wp_postmeta` VALUES (6793,1043,'_length','');
+INSERT INTO `wp_postmeta` VALUES (6794,1043,'_width','');
+INSERT INTO `wp_postmeta` VALUES (6795,1043,'_height','');
+INSERT INTO `wp_postmeta` VALUES (6796,1043,'_sku','');
+INSERT INTO `wp_postmeta` VALUES (6797,1043,'_product_attributes','a:0:{}');
+INSERT INTO `wp_postmeta` VALUES (6798,1043,'_sale_price_dates_from','');
+INSERT INTO `wp_postmeta` VALUES (6799,1043,'_sale_price_dates_to','');
+INSERT INTO `wp_postmeta` VALUES (6800,1043,'_price','150.00');
+INSERT INTO `wp_postmeta` VALUES (6801,1043,'_sold_individually','');
+INSERT INTO `wp_postmeta` VALUES (6802,1043,'_manage_stock','no');
+INSERT INTO `wp_postmeta` VALUES (6803,1043,'_backorders','no');
+INSERT INTO `wp_postmeta` VALUES (6804,1043,'_stock','');
+INSERT INTO `wp_postmeta` VALUES (6805,1043,'_product_image_gallery','');
+INSERT INTO `wp_postmeta` VALUES (6806,1043,'slide_template','default');
+INSERT INTO `wp_postmeta` VALUES (6807,1045,'_edit_last','1');
+INSERT INTO `wp_postmeta` VALUES (6808,1045,'_edit_lock','1414011738:1');
+INSERT INTO `wp_postmeta` VALUES (6809,1046,'_wp_attached_file','2014/10/bell.jpg');
+INSERT INTO `wp_postmeta` VALUES (6810,1046,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:500;s:6:\"height\";i:375;s:4:\"file\";s:16:\"2014/10/bell.jpg\";s:5:\"sizes\";a:10:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:16:\"bell-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:16:\"bell-300x225.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:225;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:21:\"yith-woocompare-image\";a:4:{s:4:\"file\";s:16:\"bell-220x154.jpg\";s:5:\"width\";i:220;s:6:\"height\";i:154;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:14:\"shop_thumbnail\";a:4:{s:4:\"file\";s:14:\"bell-90x90.jpg\";s:5:\"width\";i:90;s:6:\"height\";i:90;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"shop_catalog\";a:4:{s:4:\"file\";s:16:\"bell-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:11:\"shop_single\";a:4:{s:4:\"file\";s:16:\"bell-300x300.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:300;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"thumbnail@2x\";a:4:{s:4:\"file\";s:16:\"bell-300x300.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:300;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:24:\"yith-woocompare-image@2x\";a:4:{s:4:\"file\";s:16:\"bell-440x308.jpg\";s:5:\"width\";i:440;s:6:\"height\";i:308;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:17:\"shop_thumbnail@2x\";a:4:{s:4:\"file\";s:16:\"bell-180x180.jpg\";s:5:\"width\";i:180;s:6:\"height\";i:180;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:15:\"shop_catalog@2x\";a:4:{s:4:\"file\";s:16:\"bell-300x300.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:300;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:11:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";s:11:\"orientation\";i:0;}}');
+INSERT INTO `wp_postmeta` VALUES (6811,1045,'_thumbnail_id','1046');
+INSERT INTO `wp_postmeta` VALUES (6812,1045,'_visibility','visible');
+INSERT INTO `wp_postmeta` VALUES (6813,1045,'_stock_status','instock');
+INSERT INTO `wp_postmeta` VALUES (6814,1045,'total_sales','0');
+INSERT INTO `wp_postmeta` VALUES (6815,1045,'_downloadable','no');
+INSERT INTO `wp_postmeta` VALUES (6816,1045,'_virtual','no');
+INSERT INTO `wp_postmeta` VALUES (6817,1045,'_regular_price','60.00');
+INSERT INTO `wp_postmeta` VALUES (6818,1045,'_sale_price','');
+INSERT INTO `wp_postmeta` VALUES (6819,1045,'_purchase_note','');
+INSERT INTO `wp_postmeta` VALUES (6820,1045,'_featured','no');
+INSERT INTO `wp_postmeta` VALUES (6821,1045,'_weight','');
+INSERT INTO `wp_postmeta` VALUES (6822,1045,'_length','');
+INSERT INTO `wp_postmeta` VALUES (6823,1045,'_width','');
+INSERT INTO `wp_postmeta` VALUES (6824,1045,'_height','');
+INSERT INTO `wp_postmeta` VALUES (6825,1045,'_sku','');
+INSERT INTO `wp_postmeta` VALUES (6826,1045,'_product_attributes','a:0:{}');
+INSERT INTO `wp_postmeta` VALUES (6827,1045,'_sale_price_dates_from','');
+INSERT INTO `wp_postmeta` VALUES (6828,1045,'_sale_price_dates_to','');
+INSERT INTO `wp_postmeta` VALUES (6829,1045,'_price','60.00');
+INSERT INTO `wp_postmeta` VALUES (6830,1045,'_sold_individually','');
+INSERT INTO `wp_postmeta` VALUES (6831,1045,'_manage_stock','no');
+INSERT INTO `wp_postmeta` VALUES (6832,1045,'_backorders','no');
+INSERT INTO `wp_postmeta` VALUES (6833,1045,'_stock','');
+INSERT INTO `wp_postmeta` VALUES (6834,1045,'_product_image_gallery','');
+INSERT INTO `wp_postmeta` VALUES (6835,1045,'slide_template','');
+INSERT INTO `wp_postmeta` VALUES (6836,1045,'_tax_status','taxable');
+INSERT INTO `wp_postmeta` VALUES (6837,1045,'_tax_class','');
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -6765,7 +6912,7 @@ CREATE TABLE `wp_posts` (
   KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
-) ENGINE=InnoDB AUTO_INCREMENT=1038 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1048 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -7189,7 +7336,17 @@ INSERT INTO `wp_posts` VALUES (1033,1,'2014-10-22 19:32:32','2014-10-22 19:32:32
 INSERT INTO `wp_posts` VALUES (1034,1,'2014-10-22 20:14:40','2014-10-22 20:14:40','extra fuck you\r\n\r\n&nbsp;','fuck you','','trash','open','closed','','fuck-you','','','2014-10-22 20:17:41','2014-10-22 20:17:41','',0,'http://localhost/newIceCreamTruck/?post_type=product&#038;p=1034',0,'product','',0);
 INSERT INTO `wp_posts` VALUES (1035,1,'2014-10-22 20:17:02','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2014-10-22 20:17:02','0000-00-00 00:00:00','',0,'http://localhost/newIceCreamTruck/?post_type=product&p=1035',0,'product','',0);
 INSERT INTO `wp_posts` VALUES (1036,1,'2014-10-22 20:24:23','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2014-10-22 20:24:23','0000-00-00 00:00:00','',0,'http://localhost/newIceCreamTruck/?post_type=product&p=1036',0,'product','',0);
-INSERT INTO `wp_posts` VALUES (1037,1,'2014-10-22 20:36:19','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2014-10-22 20:36:19','0000-00-00 00:00:00','',0,'http://localhost/newIceCreamTruck/?post_type=product&p=1037',0,'product','',0);
+INSERT INTO `wp_posts` VALUES (1037,1,'2014-10-22 20:47:31','2014-10-22 20:47:31','<p style=\"text-align: center;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">AEROMATE MANUAL</span></p>\r\n<p style=\"text-align: center;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">1989 - 1992</span></p>\r\n<p style=\"text-align: center;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">YOU CAN HAVE IT IN A BINDED BOOK AND PAY FOR SHIPPING</span></p>\r\n<p style=\"text-align: center;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">OR</span></p>\r\n<p style=\"text-align: center;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\"> WE CAN E-MAIL IT AS A  PDF  FILE  AS AN ATACHMENT WITH NO SHIPPING CHARGE  !!</span></p>\r\n<p style=\"text-align: center;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">WE ALSO HAVE A GREAT ASORTMENT OF NEW AND USED AEROMATE PARTS</span></p>',' ICE CREAM TRUCK MANUAL, AEROMATE UMC ','','publish','open','closed','','ice-cream-truck-manual-aeromate-umc','','','2014-10-22 20:47:31','2014-10-22 20:47:31','',0,'http://localhost/newIceCreamTruck/?post_type=product&#038;p=1037',0,'product','',0);
+INSERT INTO `wp_posts` VALUES (1038,1,'2014-10-22 20:47:11','2014-10-22 20:47:11','','aeromate manual','','inherit','open','open','','aeromate-manual','','','2014-10-22 20:47:11','2014-10-22 20:47:11','',1037,'http://localhost/newIceCreamTruck/wp-content/uploads/2014/10/aeromate-manual1.jpg',0,'attachment','image/jpeg',0);
+INSERT INTO `wp_posts` VALUES (1039,1,'2014-10-22 20:50:57','2014-10-22 20:50:57','\"I can hear the Ice Cream Man coming!\"  That\'s right, with the Nichols Digital II music box you\'ll get the attention you want!  You\'ll also get an updated version of the industry standard <em><strong>Digital</strong></em> chime unit.  This unit retains the rock solid dependability that made the original Digital an all-time best seller, while introducing improvements to bring vending chimes into the 21st century.\r\n\r\nIMPROVEMENTS INCLUDE:      An adjustable, internal volume limiter, which allows for compliance with local noise ordinances.\r\n\r\nEight of the most requested vending songs:  <em>The Entertainer,  Turkey in the Straw,  Little Brown Jug,  Sailing Sailing,  Camptown Races, Redwing,  Brahm\'s Lullaby,</em><em> </em>and<em>La Cucaracha</em>.\r\n\r\nThe Digital II compliments our Omni model by providing users with the choice between the Omni\'s large built-in song library or the Digital II\'s custom renditions of 8 classic vending favorites, unavailable in a single package in any other way.\r\n\r\nCall today so that you can be heard and identified as - - - - - everyone\'s FAVORITE ICE CREAM MAN!\r\n\r\n<strong><em>Improvements Include:</em></strong>\r\n\r\n&nbsp;\r\n\r\n<strong>An adjustable internal volume limiter,</strong>\r\n\r\n<strong>which allows for compliance with local noise ordinances.</strong>\r\n\r\n<strong>\r\n\r\n</strong>\r\n\r\n<strong>Eight of the most requested vending songs:</strong>\r\n\r\n<strong><em>The Entertainer, Turkey in the Straw, Little Brown Jug, Sailing Sailing,</em></strong>\r\n\r\n<strong><em>Camptown Races, Redwing, Brahm\'s Lullaby, and La Cucaracha.</em></strong>\r\n\r\n<strong><em>Our Music Boxes will be shipped to you DIRECT from the FACTORY !!!</em></strong>\r\n\r\n<strong> </strong>\r\n\r\n<strong><em>EVERYTHING WE SELL IS 100% GUARANTEED.</em></strong>\r\n\r\n&nbsp;\r\n\r\nWE WILL NOT BE UNDERSOLD WE GUARANTE TO\r\n\r\nHAVE  THE LOWEST PRICES ON ALL\r\n\r\nICE CREAM TRUCK EQUIPMENT','ICE CREAM MUSIC BOX','','publish','open','closed','','ice-cream-music-box','','','2014-10-22 20:50:57','2014-10-22 20:50:57','',0,'http://localhost/newIceCreamTruck/?post_type=product&#038;p=1039',0,'product','',0);
+INSERT INTO `wp_posts` VALUES (1040,1,'2014-10-22 20:50:38','2014-10-22 20:50:38','','digital2','','inherit','open','open','','digital2','','','2014-10-22 20:50:38','2014-10-22 20:50:38','',1039,'http://localhost/newIceCreamTruck/wp-content/uploads/2014/10/digital21.jpg',0,'attachment','image/jpeg',0);
+INSERT INTO `wp_posts` VALUES (1041,1,'2014-10-22 20:54:01','2014-10-22 20:54:01','<p style=\"text-align: center;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">ICE CREAM MUSIC  CD</span></p>\r\n<p style=\"text-align: center; orphans: auto; widows: auto; -webkit-text-stroke-width: 0px; word-spacing: 0px;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">8 OF THE MOST POPULAR</span></p>\r\n<p style=\"text-align: center; orphans: auto; widows: auto; -webkit-text-stroke-width: 0px; word-spacing: 0px;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">ICE CREAM TRUCK TUNES</span></p>\r\n<p style=\"text-align: center; orphans: auto; widows: auto; -webkit-text-stroke-width: 0px; word-spacing: 0px;\" align=\"center\"><span style=\"font-size: 16.0pt;\"> </span></p>\r\n<p style=\"text-align: center; orphans: auto; widows: auto; -webkit-text-stroke-width: 0px; word-spacing: 0px;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">Happy Birthday</span></p>\r\n<p style=\"text-align: center; orphans: auto; widows: auto; -webkit-text-stroke-width: 0px; word-spacing: 0px;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">When you’re happy and you know it clap your hands</span></p>\r\n<p style=\"text-align: center; orphans: auto; widows: auto; -webkit-text-stroke-width: 0px; word-spacing: 0px;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">Music Box Dancer</span></p>\r\n<p style=\"text-align: center; orphans: auto; widows: auto; -webkit-text-stroke-width: 0px; word-spacing: 0px;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">Picnic</span></p>\r\n<p style=\"text-align: center; orphans: auto; widows: auto; -webkit-text-stroke-width: 0px; word-spacing: 0px;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">It’s A Small World</span></p>\r\n<p style=\"text-align: center; orphans: auto; widows: auto; -webkit-text-stroke-width: 0px; word-spacing: 0px;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">Suwannee River</span></p>\r\n<p style=\"text-align: center; orphans: auto; widows: auto; -webkit-text-stroke-width: 0px; word-spacing: 0px;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">Entertainer</span></p>\r\n<p style=\"text-align: center; orphans: auto; widows: auto; -webkit-text-stroke-width: 0px; word-spacing: 0px;\" align=\"center\"><span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">Frere Jacques</span></p>','ICE CREAM TRUCK MUSIC C D','','publish','open','closed','','ice-cream-truck-music-c-d','','','2014-10-22 20:54:01','2014-10-22 20:54:01','',0,'http://localhost/newIceCreamTruck/?post_type=product&#038;p=1041',0,'product','',0);
+INSERT INTO `wp_posts` VALUES (1042,1,'2014-10-22 20:53:01','2014-10-22 20:53:01','','CD','','inherit','open','open','','cd','','','2014-10-22 20:53:01','2014-10-22 20:53:01','',1041,'http://localhost/newIceCreamTruck/wp-content/uploads/2014/10/CD1.jpg',0,'attachment','image/jpeg',0);
+INSERT INTO `wp_posts` VALUES (1043,1,'2014-10-22 20:57:01','2014-10-22 20:57:01','<span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">Out Fit Your Truck with a Brand new</span>\r\n\r\n<span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\"> 72 inch or a 42 inch Canopy for an ICE CREAM TRUCK or FOOD TRUCK .</span>\r\n\r\n<span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">These come in red, white, and blue.</span>\r\n\r\n<span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">This does not come with lights.</span>\r\n\r\n<span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">You can purchase the light kit from us separately.</span>\r\n\r\n<span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">We can also make these any custom length for an  additional charge.</span>\r\n\r\n<span style=\"font-size: 16.0pt; font-family: \'Arial\',sans-serif;\">Call us at  801  266 9199   </span>','Awning','','publish','open','closed','','awning','','','2014-10-22 20:57:01','2014-10-22 20:57:01','',0,'http://localhost/newIceCreamTruck/?post_type=product&#038;p=1043',0,'product','',0);
+INSERT INTO `wp_posts` VALUES (1044,1,'2014-10-22 20:56:51','2014-10-22 20:56:51','','ebay awning','','inherit','open','open','','ebay-awning','','','2014-10-22 20:56:51','2014-10-22 20:56:51','',1043,'http://localhost/newIceCreamTruck/wp-content/uploads/2014/10/ebay-awning1.jpg',0,'attachment','image/jpeg',0);
+INSERT INTO `wp_posts` VALUES (1045,1,'2014-10-22 21:00:29','2014-10-22 21:00:29','Brand new 12 volt Ice Cream Truck/Food Truck Potter Bell. very easy to install','Ice Cream Food Truck Bell 12 volt','','publish','open','closed','','ice-cream-food-truck-bell-12-volt','','','2014-10-22 21:02:17','2014-10-22 21:02:17','',0,'http://localhost/newIceCreamTruck/?post_type=product&#038;p=1045',0,'product','',0);
+INSERT INTO `wp_posts` VALUES (1046,1,'2014-10-22 21:00:19','2014-10-22 21:00:19','','bell','','inherit','open','open','','bell','','','2014-10-22 21:00:19','2014-10-22 21:00:19','',1045,'http://localhost/newIceCreamTruck/wp-content/uploads/2014/10/bell.jpg',0,'attachment','image/jpeg',0);
+INSERT INTO `wp_posts` VALUES (1047,1,'2014-10-22 21:00:38','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2014-10-22 21:00:38','0000-00-00 00:00:00','',0,'http://localhost/newIceCreamTruck/?post_type=product&p=1047',0,'product','',0);
 /*!40000 ALTER TABLE `wp_posts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -7577,6 +7734,14 @@ INSERT INTO `wp_term_relationships` VALUES (1025,79,0);
 INSERT INTO `wp_term_relationships` VALUES (1028,79,0);
 INSERT INTO `wp_term_relationships` VALUES (1032,79,0);
 INSERT INTO `wp_term_relationships` VALUES (1034,2,0);
+INSERT INTO `wp_term_relationships` VALUES (1037,2,0);
+INSERT INTO `wp_term_relationships` VALUES (1039,2,0);
+INSERT INTO `wp_term_relationships` VALUES (1041,2,0);
+INSERT INTO `wp_term_relationships` VALUES (1041,87,0);
+INSERT INTO `wp_term_relationships` VALUES (1043,2,0);
+INSERT INTO `wp_term_relationships` VALUES (1043,87,0);
+INSERT INTO `wp_term_relationships` VALUES (1045,2,0);
+INSERT INTO `wp_term_relationships` VALUES (1045,87,0);
 /*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -7597,7 +7762,7 @@ CREATE TABLE `wp_term_taxonomy` (
   PRIMARY KEY (`term_taxonomy_id`),
   UNIQUE KEY `term_id_taxonomy` (`term_id`,`taxonomy`),
   KEY `taxonomy` (`taxonomy`)
-) ENGINE=InnoDB AUTO_INCREMENT=87 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=88 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -7607,7 +7772,7 @@ CREATE TABLE `wp_term_taxonomy` (
 LOCK TABLES `wp_term_taxonomy` WRITE;
 /*!40000 ALTER TABLE `wp_term_taxonomy` DISABLE KEYS */;
 INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,1);
-INSERT INTO `wp_term_taxonomy` VALUES (2,2,'product_type','',0,0);
+INSERT INTO `wp_term_taxonomy` VALUES (2,2,'product_type','',0,5);
 INSERT INTO `wp_term_taxonomy` VALUES (3,3,'product_type','',0,0);
 INSERT INTO `wp_term_taxonomy` VALUES (4,4,'product_type','',0,0);
 INSERT INTO `wp_term_taxonomy` VALUES (5,5,'product_type','',0,0);
@@ -7667,6 +7832,7 @@ INSERT INTO `wp_term_taxonomy` VALUES (83,82,'product_cat','',0,0);
 INSERT INTO `wp_term_taxonomy` VALUES (84,83,'product_cat','',0,0);
 INSERT INTO `wp_term_taxonomy` VALUES (85,84,'product_cat','',0,0);
 INSERT INTO `wp_term_taxonomy` VALUES (86,85,'product_cat','',0,0);
+INSERT INTO `wp_term_taxonomy` VALUES (87,86,'product_cat','',0,3);
 /*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -7685,7 +7851,7 @@ CREATE TABLE `wp_terms` (
   PRIMARY KEY (`term_id`),
   UNIQUE KEY `slug` (`slug`),
   KEY `name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=86 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=87 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -7755,6 +7921,7 @@ INSERT INTO `wp_terms` VALUES (82,'Freezers','freezers',0);
 INSERT INTO `wp_terms` VALUES (83,'Fun &amp; Functional','fun_functional',0);
 INSERT INTO `wp_terms` VALUES (84,'Testimonals','testimonals',0);
 INSERT INTO `wp_terms` VALUES (85,'Financing','financing',0);
+INSERT INTO `wp_terms` VALUES (86,'Equipment','equipment',0);
 /*!40000 ALTER TABLE `wp_terms` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -8033,7 +8200,7 @@ CREATE TABLE `wp_woocommerce_termmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `woocommerce_term_id` (`woocommerce_term_id`),
   KEY `meta_key` (`meta_key`)
-) ENGINE=InnoDB AUTO_INCREMENT=79 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=81 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -8077,6 +8244,8 @@ INSERT INTO `wp_woocommerce_termmeta` VALUES (75,84,'thumbnail_id','0');
 INSERT INTO `wp_woocommerce_termmeta` VALUES (76,85,'order','0');
 INSERT INTO `wp_woocommerce_termmeta` VALUES (77,85,'display_type','');
 INSERT INTO `wp_woocommerce_termmeta` VALUES (78,85,'thumbnail_id','0');
+INSERT INTO `wp_woocommerce_termmeta` VALUES (79,86,'order','0');
+INSERT INTO `wp_woocommerce_termmeta` VALUES (80,86,'product_count_product_cat','3');
 /*!40000 ALTER TABLE `wp_woocommerce_termmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -8116,4 +8285,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-10-22 14:41:08
+-- Dump completed on 2014-10-22 15:04:12
