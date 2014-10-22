@@ -65,7 +65,7 @@
 							?>
 							
 							<span class="tags">
-								<i class="fa fa-tags"></i> <?php printf( __( 'Tags: %1$s', 'flatmarket' ), $tags_list ); ?>
+								<i class="fa fa-tags"></i>  <?php printf( __( 'Tags: %1$s', 'flatmarket' ), $tags_list ); ?>
 							</span>
 							<?php endif; // End if $tags_list ?>
 
