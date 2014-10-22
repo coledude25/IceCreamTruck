@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.6.12, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.20, for Win32 (x86)
 --
 -- Host: localhost    Database: ice_cream_truck
 -- ------------------------------------------------------
--- Server version	5.6.12-log
+-- Server version	5.6.20
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -8900,4 +8900,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-10-22 16:46:50
+-- Dump completed on 2014-10-22 17:07:07
